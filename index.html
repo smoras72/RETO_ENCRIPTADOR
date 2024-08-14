@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Encriptador texto</title>
+    <link rel="stylesheet" href="./encrip.css">
+    <link rel="icon" type="image/x-ico" href="./Images/logo_alu.svg">
+</head>
+<body>
+    <header>
+        <a href="#" rel="">
+            <img src="./Images/logo_alu.svg" alt="Logo Alura" class="logo_alu">
+        </a>
+    </header>
+    <main>
+        <section class="encriptador">
+            <textarea class="encripta" placeholder="Ingrese el texto aquí"></textarea>  
+            <div class="encriptador_message">
+                <img src="./imagenes/exclama.svg" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto_message">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador_botones">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta_cuadro">
+           <div class="cuadro_dibujo">
+                <img src="./Images/Muñeco.svg" alt="Imagen Muñeco" class="img-muñeco">
+                <p class="mensaje_uno">Ningún mensaje fue encontrado</p>
+                <p class="mensaje_dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="btn-copiar">Copiar</button>
+         </section>  
+    </main>
+    <footer>
+        <p class="copyright">&copy; copyright 2024 Encriptador de Texto - desarrollado por Sintia Mora Segura</p>
+        <a href="#" rel="">
+            <img src="./Images/github1.ico" alt="Logo Github" class="git">
+        </a>
+    </footer>
+    <script src="./encript_txt.js"></script>
+</body>
+</html>
